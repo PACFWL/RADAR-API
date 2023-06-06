@@ -55,7 +55,7 @@ public class Desaparecido {
     private String cicatriz;
 
     @Column(nullable = false)
-    private Double tamanhoDesaparecido;
+    private String tamanhoDesaparecido;
 
     @Column(nullable = false)
     private String sexoDesaparecido;
@@ -63,7 +63,7 @@ public class Desaparecido {
     public Desaparecido() {
     }
 
-    public Desaparecido(Long idDesaparecido, String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, Double tamanhoDesaparecido, String sexoDesaparecido) {
+    public Desaparecido(Long idDesaparecido, String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido) {
         this.idDesaparecido = idDesaparecido;
         this.nomeDesaparecido = nomeDesaparecido;
         this.sobrenomeDesaparecido = sobrenomeDesaparecido;
@@ -82,7 +82,7 @@ public class Desaparecido {
         this.sexoDesaparecido = sexoDesaparecido;
     }
 
-    public Desaparecido(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, Double tamanhoDesaparecido, String sexoDesaparecido) {
+    public Desaparecido(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido) {
         this.nomeDesaparecido = nomeDesaparecido;
         this.sobrenomeDesaparecido = sobrenomeDesaparecido;
         this.dataDesaparecimento = dataDesaparecimento;
@@ -188,11 +188,11 @@ public class Desaparecido {
         this.cicatriz = cicatriz;
     }
 
-    public Double getTamanhoDesaparecido() {
+    public String getTamanhoDesaparecido() {
         return tamanhoDesaparecido;
     }
 
-    public void setTamanhoDesaparecido(Double tamanhoDesaparecido) {
+    public void setTamanhoDesaparecido(String tamanhoDesaparecido) {
         this.tamanhoDesaparecido = tamanhoDesaparecido;
     }
 

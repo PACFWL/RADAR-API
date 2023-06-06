@@ -174,47 +174,47 @@ class LoadDatabase {
 			List<String> roles4 = new ArrayList<String>();
 			roles4.add("Admin");
 			
-			Desaparecido desaparecido1 = new Desaparecido("John", "Biden", "19/08/2021", " 21:10", "Jovem", "19/08/2000", "2000", endereco1 , fotos1, "Não","Cor de pele A", "Não", "Sim", 1.81, "M");
+			Desaparecido desaparecido1 = new Desaparecido("John", "Biden", "19/08/2021", " 21:10", "Jovem", "19/08/2000", "2000", endereco1 , fotos1, "Não","Cor de pele A", "Não", "Sim", "1.81", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido1));
 			
-			Desaparecido desaparecido2 = new Desaparecido("Sarah", "Burton", "11/07/2021", " 21:10", "Jovem", "29/09/1999", "5000", endereco2 , fotos2, "Não","Cor de pele B", "Não", "Não", 1.90, "F");
+			Desaparecido desaparecido2 = new Desaparecido("Sarah", "Burton", "11/07/2021", " 21:10", "Jovem", "29/09/1999", "5000", endereco2 , fotos2, "Não","Cor de pele B", "Não", "Não", "1.90", "F");
 			log.info("Preloading " + repositoryDe.save(desaparecido2));
 			
-			Desaparecido desaparecido3 = new Desaparecido("Ryan", "McGregor", "09/07/2020", " 20:20", "Jovem", "06/02/1995", "250000", endereco3 , fotos3, "Não","Cor de pele C", "True", "Não", 1.50, "M");
+			Desaparecido desaparecido3 = new Desaparecido("Ryan", "McGregor", "09/07/2020", " 20:20", "Jovem", "06/02/1995", "250000", endereco3 , fotos3, "Não","Cor de pele C", "True", "Não", "1.50", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido3));
 			
-			Desaparecido desaparecido4 = new Desaparecido("Erling", "Halland", "10/05/2021", " 16:10", "Jovem", "03/07/1980", "234000", endereco4 , fotos4, "Não","Cor de pele D", "True", "Sim", 1.33, "M");
+			Desaparecido desaparecido4 = new Desaparecido("Erling", "Halland", "10/05/2021", " 16:10", "Jovem", "03/07/1980", "234000", endereco4 , fotos4, "Não","Cor de pele D", "True", "Sim", "1.33", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido4));
 			
 			
-			Desaparecido desaparecido5 = new Desaparecido("Dina", "Boluarte", "10/01/2021", " 11:10", "Jovem", "11/09/1998", "2800", endereco5 , fotos5, "Não","Cor de pele E", "Não", "Sim", 1.70, "F");
+			Desaparecido desaparecido5 = new Desaparecido("Dina", "Boluarte", "10/01/2021", " 11:10", "Jovem", "11/09/1998", "2800", endereco5 , fotos5, "Não","Cor de pele E", "Não", "Sim", "1.70", "F");
 			log.info("Preloading " + repositoryDe.save(desaparecido5));
 			
 			
 			
-			Desaparecido desaparecido6 = new Desaparecido("Gabriel", "Boric", "12/09/2021", " 20:10", "Jovem", "09/12/2002", "2700", endereco6 , fotos6, "Não","Cor de pele G", "Não", "Sim", 1.50, "M");
+			Desaparecido desaparecido6 = new Desaparecido("Gabriel", "Boric", "12/09/2021", " 20:10", "Jovem", "09/12/2002", "2700", endereco6 , fotos6, "Não","Cor de pele G", "Não", "Sim", "1.50", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido6));
 			
 			
-			Desaparecido desaparecido7 = new Desaparecido("Guillermo", "Lasso", "10/05/2021", " 22:40", "Jovem", "05/11/1978", "1000", endereco7 , fotos7, "Não","Cor de pele H", "Não", "Não", 1.76, "M");
+			Desaparecido desaparecido7 = new Desaparecido("Guillermo", "Lasso", "10/05/2021", " 22:40", "Jovem", "05/11/1978", "1000", endereco7 , fotos7, "Não","Cor de pele H", "Não", "Não", "1.76", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido7));
 			
-			Desaparecido desaparecido8 = new Desaparecido("Lacalle", "Pou", "08/03/2021", " 16:30", "Jovem", "26/07/1999", "6000", endereco8 , fotos8, "Sim","Cor de pele I", "Não", "Sim", 1.90, "M");
+			Desaparecido desaparecido8 = new Desaparecido("Lacalle", "Pou", "08/03/2021", " 16:30", "Jovem", "26/07/1999", "6000", endereco8 , fotos8, "Sim","Cor de pele I", "Não", "Sim", "1.90", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido8));
 			
 			
-			Desaparecido desaparecido9 = new Desaparecido("Gustavo", "Petro", "19/02/2021", " 11:46", "Jovem", "09/01/1998", "2750", endereco9 , fotos9, "Não","Cor de pele J", "Sim", "Sim", 1.78, "M");
+			Desaparecido desaparecido9 = new Desaparecido("Gustavo", "Petro", "19/02/2021", " 11:46", "Jovem", "09/01/1998", "2750", endereco9 , fotos9, "Não","Cor de pele J", "Sim", "Sim", "1.78", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido9));
 			
 			
-			Desaparecido desaparecido10 = new Desaparecido("Magnus", "Karsen", "19/06/2021", " 09:27", "Jovem", "20/06/1989", "9000", endereco10 , fotos10, "Sim","Cor de pele K", "Não", "Sim", 1.88, "M");
+			Desaparecido desaparecido10 = new Desaparecido("Magnus", "Karsen", "19/06/2021", " 09:27", "Jovem", "20/06/1989", "9000", endereco10 , fotos10, "Sim","Cor de pele K", "Não", "Sim", "1.88", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido10));
 			
 			
-			Desaparecido desaparecido11 = new Desaparecido("Lang", "Lang", "26/08/2021", " 06:54", "Jovem", "23/03/2003", "2500", endereco11 , fotos11, "Sim","Cor de pele L", "Sim", "Sim", 1.80, "M");
+			Desaparecido desaparecido11 = new Desaparecido("Lang", "Lang", "26/08/2021", " 06:54", "Jovem", "23/03/2003", "2500", endereco11 , fotos11, "Sim","Cor de pele L", "Sim", "Sim", "1.80", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido11));
 			
-			Desaparecido desaparecido12 = new Desaparecido("John", "Smith", "30/09/2021", " 04:45", "Jovem ", "17/04/2004", "3000", endereco12 , fotos12, "Não","Cor de pele M", "Sim", "Sim", 1.50, "M");
+			Desaparecido desaparecido12 = new Desaparecido("John", "Smith", "30/09/2021", " 04:45", "Jovem ", "17/04/2004", "3000", endereco12 , fotos12, "Não","Cor de pele M", "Sim", "Sim", "1.50", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido12));
 			
 			//String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, Double tamanhoDesaparecido, String sexoDesaparecido

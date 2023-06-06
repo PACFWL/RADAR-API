@@ -3,6 +3,8 @@ package com.gruposeven.radar.model.entity;
 import jakarta.persistence.*;
 import java.time.LocalDate;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 @Entity
 public class Familiar {
     @Id
@@ -27,6 +29,7 @@ public class Familiar {
     @Column(nullable = false)
     private String dataDeNascimento;
 
+    @JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "desaparecido_id")
     private Desaparecido desaparecido;

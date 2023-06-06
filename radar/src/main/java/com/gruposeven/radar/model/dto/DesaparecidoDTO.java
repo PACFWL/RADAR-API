@@ -23,7 +23,7 @@ public class DesaparecidoDTO {
     private String corDePeleDesaparecido;
     private String tatuagemDesaparecido;
     private String cicatriz;
-    private Double tamanhoDesaparecido;
+    private String tamanhoDesaparecido;
 
     private String sexoDesaparecido;
 
@@ -32,7 +32,7 @@ public class DesaparecidoDTO {
     public DesaparecidoDTO() {
     }
 
-    public DesaparecidoDTO(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco enderecoDTO, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, Double tamanhoDesaparecido, String sexoDesaparecido, String horaDesaparecimento) {
+    public DesaparecidoDTO(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco enderecoDTO, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido, String horaDesaparecimento) {
         this.nomeDesaparecido = nomeDesaparecido;
         this.sobrenomeDesaparecido = sobrenomeDesaparecido;
         this.dataDesaparecimento = dataDesaparecimento;
@@ -130,11 +130,11 @@ public class DesaparecidoDTO {
         this.cicatriz = cicatriz;
     }
 
-    public Double getTamanhoDesaparecido() {
+    public String getTamanhoDesaparecido() {
         return tamanhoDesaparecido;
     }
 
-    public void setTamanhoDesaparecido(Double tamanhoDesaparecido) {
+    public void setTamanhoDesaparecido(String tamanhoDesaparecido) {
         this.tamanhoDesaparecido = tamanhoDesaparecido;
     }
 
