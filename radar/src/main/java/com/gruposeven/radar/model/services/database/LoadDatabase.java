@@ -91,14 +91,14 @@ class LoadDatabase {
 			
 			
 			List<String> fotos1 = new ArrayList<String>();
-			fotos1.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
-			fotos1.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
+			fotos1.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
+			fotos1.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
 			fotos1.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			fotos1.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos2 = new ArrayList<String>();
-			fotos2.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
-			fotos2.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
+			fotos2.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
+			fotos2.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
 			fotos2.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			fotos2.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
@@ -109,8 +109,8 @@ class LoadDatabase {
 			fotos3.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos4 = new ArrayList<String>();
-			fotos4.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
-			fotos4.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
+			fotos4.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
+			fotos4.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
 			fotos4.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			fotos4.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
