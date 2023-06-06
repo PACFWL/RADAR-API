@@ -109,7 +109,7 @@ class LoadDatabase {
 			fotos3.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos4 = new ArrayList<String>();
-			fotos4.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
+			fotos4.add("https://cdn.pixabay.com/photo/2016/01/18/20/09/old-man-1147283_1280.jpg");
 			fotos4.add("https://cdn.pixabay.com/photo/2015/12/21/05/45/girl-1102086_1280.jpg");
 			fotos4.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			fotos4.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
