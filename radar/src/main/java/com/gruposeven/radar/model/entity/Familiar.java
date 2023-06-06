@@ -25,7 +25,7 @@ public class Familiar {
     private String grauDeParentesco;
 
     @Column(nullable = false)
-    private LocalDate dataDeNascimento;
+    private String dataDeNascimento;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "desaparecido_id")
@@ -35,7 +35,7 @@ public class Familiar {
     public Familiar() {
     }
 
-    public Familiar(Long id, String nome, String cpf, String email, String telefone, String grauDeParentesco, LocalDate dataDeNascimento, Desaparecido desaparecido) {
+    public Familiar(Long id, String nome, String cpf, String email, String telefone, String grauDeParentesco, String dataDeNascimento, Desaparecido desaparecido) {
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
@@ -46,7 +46,7 @@ public class Familiar {
         this.desaparecido = desaparecido;
     }
 
-    public Familiar(String nome, String cpf, String email, String telefone, String grauDeParentesco, LocalDate dataDeNascimento, Desaparecido desaparecido) {
+    public Familiar(String nome, String cpf, String email, String telefone, String grauDeParentesco, String dataDeNascimento, Desaparecido desaparecido) {
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
@@ -104,11 +104,11 @@ public class Familiar {
         this.grauDeParentesco = grauDeParentesco;
     }
 
-    public LocalDate getDataDeNascimento() {
+    public String getDataDeNascimento() {
         return dataDeNascimento;
     }
 
-    public void setDataDeNascimento(LocalDate dataDeNascimento) {
+    public void setDataDeNascimento(String dataDeNascimento) {
         this.dataDeNascimento = dataDeNascimento;
     }
 

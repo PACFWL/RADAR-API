@@ -11,13 +11,13 @@ public class FamiliarDTO {
     private String email;
     private String telefone;
     private String grauDeParentesco;
-    private LocalDate dataDeNascimento;
+    private String dataDeNascimento;
     private DesaparecidoDTO desaparecido;
 
     public FamiliarDTO() {
     }
 
-    public FamiliarDTO(String nome, String cpf, String email, String telefone, String grauDeParentesco, LocalDate dataDeNascimento, DesaparecidoDTO desaparecido) {
+    public FamiliarDTO(String nome, String cpf, String email, String telefone, String grauDeParentesco, String dataDeNascimento, DesaparecidoDTO desaparecido) {
         this.nome = nome;
         this.cpf = cpf;
         this.email = email;
@@ -67,11 +67,11 @@ public class FamiliarDTO {
         this.grauDeParentesco = grauDeParentesco;
     }
 
-    public LocalDate getDataDeNascimento() {
+    public String getDataDeNascimento() {
         return dataDeNascimento;
     }
 
-    public void setDataDeNascimento(LocalDate dataDeNascimento) {
+    public void setDataDeNascimento(String dataDeNascimento) {
         this.dataDeNascimento = dataDeNascimento;
     }
 

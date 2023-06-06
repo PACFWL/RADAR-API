@@ -92,75 +92,75 @@ class LoadDatabase {
 			
 			List<String> fotos1 = new ArrayList<String>();
 			fotos1.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
-			fotos1.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos1.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos1.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos1.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
+			fotos1.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos1.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos2 = new ArrayList<String>();
 			fotos2.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
-			fotos2.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos2.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos2.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos2.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
+			fotos2.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos2.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos3 = new ArrayList<String>();
 			fotos3.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
 			fotos3.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos3.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos3.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos3.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos3.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos4 = new ArrayList<String>();
-			fotos4.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos4.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
 			fotos4.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos4.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos4.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos4.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos4.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos5 = new ArrayList<String>();
-			fotos5.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos5.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
 			fotos5.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos5.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos5.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos5.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos5.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos6 = new ArrayList<String>();
-			fotos6.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos6.add("https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg");
 			fotos6.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos6.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos6.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos6.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos6.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos7 = new ArrayList<String>();
-			fotos7.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos7.add("https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg");
 			fotos7.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos7.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos7.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos7.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos7.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos8 = new ArrayList<String>();
-			fotos8.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos8.add("https://cdn.pixabay.com/photo/2017/07/22/20/40/girl-2529907_1280.jpg");
 			fotos8.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos8.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos8.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos8.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos8.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos9 = new ArrayList<String>();
-			fotos9.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos9.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
 			fotos9.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos9.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos9.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos9.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos9.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos10 = new ArrayList<String>();
-			fotos10.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
+			fotos10.add("https://cdn.pixabay.com/photo/2015/06/22/08/40/child-817373_1280.jpg");
 			fotos10.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos10.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos10.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos10.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos10.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos11 = new ArrayList<String>();
 			fotos11.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
 			fotos11.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos11.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos11.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos11.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos11.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> fotos12 = new ArrayList<String>();
-			fotos12.add("https://cdn.pixabay.com/photo/2016/11/29/20/22/girl-1871104_1280.jpg");
-			fotos12.add("https://cdn.pixabay.com/photo/2014/08/08/20/55/worried-girl-413690_1280.jpg");
-			fotos12.add("https://cdn.pixabay.com/photo/2016/03/09/09/30/woman-1245817_1280.jpg");
-			fotos12.add("https://cdn.pixabay.com/photo/2018/02/21/08/40/woman-3169726_1280.jpg");
+			fotos12.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos12.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos12.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
+			fotos12.add("https://cdn.pixabay.com/photo/2014/09/16/01/19/girl-447701_1280.jpg");
 			
 			List<String> roles1 = new ArrayList<String>();
 			roles1.add("Admin");
@@ -233,13 +233,13 @@ class LoadDatabase {
 			LocalDate date2 = LocalDate.of(2002, 7, 1);
 			LocalDate date3 = LocalDate.of(1970, 5, 8);
 			
-			Familiar familiar1 = new Familiar("Thomas Muller", "21321353245435", "abcdefgh@gmail.com", "11969242342", "1°Grau(Pai)", date1, desaparecido1);
+			Familiar familiar1 = new Familiar("Thomas Muller", "21321353245435", "abcdefgh@gmail.com", "11969242342", "1°Grau(Pai)", "19/01/2000", desaparecido1);
 			log.info("Preloading " + repositoryFa.save(familiar1));
 			
-			Familiar familiar2 = new Familiar("Tales de Mileto", "213277777245435", "talesdemileto@gmail.com", "119692999742", "2°Grau(Primo)", date2, desaparecido2);
+			Familiar familiar2 = new Familiar("Tales de Mileto", "213277777245435", "talesdemileto@gmail.com", "119692999742", "2°Grau(Primo)", "09/09/2000", desaparecido2);
 			log.info("Preloading " + repositoryFa.save(familiar2));
 			
-            Familiar familiar3 = new Familiar("Javier Milei", "213213666685435", "dolareslakaka@gmail.com", "119692475382", "3°Grau(Avô)", date3, desaparecido3);
+            Familiar familiar3 = new Familiar("Javier Milei", "213213666685435", "dolareslakaka@gmail.com", "119692475382", "3°Grau(Avô)", "18/05/2000", desaparecido3);
 			log.info("Preloading " + repositoryFa.save(familiar3));
 			
 			
