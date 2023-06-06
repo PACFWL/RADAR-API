@@ -7,9 +7,11 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 import java.util.stream.Stream;
 
+import java.util.List; 
+
 public interface FotosService {
 
     Foto upload(MultipartFile file) throws IOException;
-    Foto getImage(Long id);
-    Stream<Foto> getAll();
+    byte[] getImage(String nome);
+    List<Foto> getAll();
 }

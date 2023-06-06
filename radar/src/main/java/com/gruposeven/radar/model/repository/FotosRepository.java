@@ -9,4 +9,6 @@ import java.util.Optional;
 
 @Repository
 public interface FotosRepository extends JpaRepository<Foto, Long> {
+	 Optional<Foto> findByNome(String altText); 
+
 }
