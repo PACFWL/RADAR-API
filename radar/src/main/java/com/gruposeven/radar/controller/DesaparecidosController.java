@@ -28,6 +28,7 @@ public class DesaparecidosController {
     @Autowired
     private DesaparecidosService service;
 
+    @Autowired
     private FotosService serviceFoto;
 
     @PostMapping("/desaparecidos")

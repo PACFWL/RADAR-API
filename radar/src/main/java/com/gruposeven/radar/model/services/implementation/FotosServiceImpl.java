@@ -41,10 +41,9 @@ public class FotosServiceImpl implements FotosService {
         return fotosRepository.findAll();
     }
     
-    
-    
+    @Override
     public byte[] getImage(String altText) {
-    	 Foto image = fotosRepository.findByNome(altText).get();
+    	 Foto image = fotosRepository.findByAltText(altText);
         return image.getArquivo();
     }
 
