@@ -9,7 +9,7 @@ import com.gruposeven.radar.model.entity.Foto;
 
 public interface FotosService {
 
-    public Foto upload(MultipartFile file) throws IOException;
-    public byte[] getImage(String altText);
-    public List<Foto> getAll();
+    Foto upload(MultipartFile file) throws IOException;
+    byte[] getImage(String altText);
+    List<Foto> getAll();
 }
