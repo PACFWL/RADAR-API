@@ -1,17 +1,15 @@
 package com.gruposeven.radar.model.services;
 
-import com.gruposeven.radar.model.entity.Desaparecido;
-import com.gruposeven.radar.model.entity.Foto;
+import java.io.IOException;
+import java.util.List;
+
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
-import java.util.stream.Stream;
-
-import java.util.List; 
+import com.gruposeven.radar.model.entity.Foto; 
 
 public interface FotosService {
 
-    Foto upload(MultipartFile file) throws IOException;
-    byte[] getImage(String nome);
-    List<Foto> getAll();
+    public Foto upload(MultipartFile file) throws IOException;
+    public byte[] getImage(String altText);
+    public List<Foto> getAll();
 }

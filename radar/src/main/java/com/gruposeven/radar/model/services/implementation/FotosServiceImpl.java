@@ -1,10 +1,8 @@
 package com.gruposeven.radar.model.services.implementation;
 
-import com.gruposeven.radar.model.entity.Desaparecido;
 import com.gruposeven.radar.model.entity.Foto;
 import com.gruposeven.radar.model.repository.FotosRepository;
 import com.gruposeven.radar.model.services.FotosService;
-import com.gruposeven.radar.util.ImageUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -14,8 +12,6 @@ import java.nio.file.Paths;
 import java.nio.file.Files; 
 
 import java.io.IOException;
-import java.util.Optional;
-import java.util.stream.Stream;
 
 import java.util.List; 
 
@@ -41,13 +37,15 @@ public class FotosServiceImpl implements FotosService {
     }
 
     @Override
-    public byte[] getImage(String nomeArquivo) {
-    	 Foto imagem = fotosRepository.findByNome(nomeArquivo).get();
-        return imagem.getArquivo();
-    }
-
-    @Override
     public List<Foto> getAll() {
         return fotosRepository.findAll();
     }
+    
+    
+    @Override
+    public byte[] getImage(String altText) {
+    	 Foto imagem = fotosRepository.findByNome(altText).get();
+        return imagem.getArquivo();
+    }
+
 }
