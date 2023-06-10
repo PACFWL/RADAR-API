@@ -26,7 +26,8 @@ public class FotosServiceImpl implements FotosService {
     	String nome = file.getOriginalFilename(); 
         //return fotosRepository.save(new Foto.FotoBuilder(file.getOriginalFilename(), file.getName(), file.getContentType(), file.getBytes()).build());
     	byte[] conteudo = file.getBytes();
-    	 Path caminhoArquivo = Paths.get("imagens/" + nome);
+    	 Path caminhoArquivo = Paths.get(nome);
+	     System.out.println(caminhoArquivo.toAbsolutePath());
     	 Foto imagem = new Foto();
     	 imagem.setAltText(file.getOriginalFilename());
     	 imagem.setCaminho(caminhoArquivo.toString());

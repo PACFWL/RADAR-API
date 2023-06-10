@@ -39,7 +39,7 @@ public class Desaparecido {
     @ElementCollection(fetch = FetchType.EAGER)
     @CollectionTable(name = "desaparecidos_fotos", joinColumns = @JoinColumn(name = "id_desaparecido"))
     @Column(name = "fotos_url")
-    private List<String> fotos;
+    private List<Foto> fotos;
 
 
     @Column(nullable = false)
@@ -63,7 +63,7 @@ public class Desaparecido {
     public Desaparecido() {
     }
 
-    public Desaparecido(Long idDesaparecido, String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido) {
+    public Desaparecido(Long idDesaparecido, String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<Foto> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido) {
         this.idDesaparecido = idDesaparecido;
         this.nomeDesaparecido = nomeDesaparecido;
         this.sobrenomeDesaparecido = sobrenomeDesaparecido;
@@ -82,7 +82,7 @@ public class Desaparecido {
         this.sexoDesaparecido = sexoDesaparecido;
     }
 
-    public Desaparecido(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido) {
+    public Desaparecido(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<Foto> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido) {
         this.nomeDesaparecido = nomeDesaparecido;
         this.sobrenomeDesaparecido = sobrenomeDesaparecido;
         this.dataDesaparecimento = dataDesaparecimento;
@@ -196,11 +196,11 @@ public class Desaparecido {
         this.tamanhoDesaparecido = tamanhoDesaparecido;
     }
 
-    public List<String> getFotos() {
+    public List<Foto> getFotos() {
         return fotos;
     }
 
-    public void setFotos(List<String> fotos) {
+    public void setFotos(List<Foto> fotos) {
         this.fotos = fotos;
     }
 

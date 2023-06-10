@@ -48,18 +48,14 @@ public class DesaparecidosController {
     @PostMapping(
     	    path = "/desaparecido", 
     	    consumes="multipart/form-data")
-    	public ResponseEntity<String> handleupload(@RequestPart("file") MultipartFile file) throws IOException{
+    	public ResponseEntity<String> handleupload(@RequestParam("image") MultipartFile file) throws IOException{
     		if(!file.isEmpty()) {
     			try {
     				serviceFoto.upload(file);
     					return ResponseEntity.ok().body("Imagem enviada");
     			} catch (FileNotFoundException e) {
-    				 	return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Arquivo nao encontrado"); 
-    			} catch (FileUploadException e) {
-    					return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Falha ao enviar o arquivo");
-    				 } catch (IOException e) {
-    					return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Falha erro de I/O");
-    				 } 
+    				 	return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(e.getMessage()); 
+    			} 
     		} else {
     			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Arquivo vazio");
     		}

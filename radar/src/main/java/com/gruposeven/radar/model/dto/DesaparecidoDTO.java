@@ -17,7 +17,7 @@ public class DesaparecidoDTO {
     private String recompensa;
     private Endereco enderecoDTO;
 
-    private List<String> fotos;
+    private List<Foto> fotos;
 
     private String possuiDoenca;
     private String corDePeleDesaparecido;
@@ -32,7 +32,7 @@ public class DesaparecidoDTO {
     public DesaparecidoDTO() {
     }
 
-    public DesaparecidoDTO(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco enderecoDTO, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido, String horaDesaparecimento) {
+    public DesaparecidoDTO(String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco enderecoDTO, List<Foto> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, String tamanhoDesaparecido, String sexoDesaparecido, String horaDesaparecimento) {
         this.nomeDesaparecido = nomeDesaparecido;
         this.sobrenomeDesaparecido = sobrenomeDesaparecido;
         this.dataDesaparecimento = dataDesaparecimento;
@@ -139,11 +139,11 @@ public class DesaparecidoDTO {
     }
 
 
-    public List<String> getFotos() {
+    public List<Foto> getFotos() {
         return fotos;
     }
 
-    public void setFotos(List<String> fotos) {
+    public void setFotos(List<Foto> fotos) {
         this.fotos = fotos;
     }
 
