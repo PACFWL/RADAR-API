@@ -174,6 +174,7 @@ class LoadDatabase {
 			List<String> roles4 = new ArrayList<String>();
 			roles4.add("Admin");
 			
+			/*
 			Desaparecido desaparecido1 = new Desaparecido("John", "Biden", "19/08/2021", " 21:10", "Jovem", "19/08/2000", "2000", endereco1 , fotos1, "Não","Cor de pele A", "Não", "Sim", "1.81", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido1));
 			
@@ -216,7 +217,7 @@ class LoadDatabase {
 			
 			Desaparecido desaparecido12 = new Desaparecido("John", "Smith", "30/09/2021", " 04:45", "Jovem ", "17/04/2004", "3000", endereco12 , fotos12, "Não","Cor de pele M", "Sim", "Sim", "1.50", "M");
 			log.info("Preloading " + repositoryDe.save(desaparecido12));
-			
+			*/
 			//String nomeDesaparecido, String sobrenomeDesaparecido, String dataDesaparecimento, String horaDesaparecimento, String descricaoDesaparecido, String dataNascimento, String recompensa, Endereco endereco, List<String> fotos, String possuiDoenca, String corDePeleDesaparecido, String tatuagemDesaparecido, String cicatriz, Double tamanhoDesaparecido, String sexoDesaparecido
 			
 			Doador doador1 = new Doador("Derick", "Anck", "2312315325", endereco7, 10000.50, "1195923434541");
@@ -233,6 +234,7 @@ class LoadDatabase {
 			LocalDate date2 = LocalDate.of(2002, 7, 1);
 			LocalDate date3 = LocalDate.of(1970, 5, 8);
 			
+			/*
 			Familiar familiar1 = new Familiar("Thomas Muller", "21321353245435", "abcdefgh@gmail.com", "11969242342", "1°Grau(Pai)", "19/01/2000", desaparecido1);
 			log.info("Preloading " + repositoryFa.save(familiar1));
 			
@@ -241,7 +243,7 @@ class LoadDatabase {
 			
             Familiar familiar3 = new Familiar("Javier Milei", "213213666685435", "dolareslakaka@gmail.com", "119692475382", "3°Grau(Avô)", "18/05/2000", desaparecido3);
 			log.info("Preloading " + repositoryFa.save(familiar3));
-			
+			*/
 			
 			/**
 			Funcionario funcionario1 = new Funcionario("Ernesto", "Amorim", "213214532543", "alguien@gmail.com", "29/01/2002", roles1,"erne0001","ernesto2023", endereco1, "0119897773534", "Designer A");

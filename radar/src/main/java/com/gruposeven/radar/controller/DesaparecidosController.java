@@ -45,11 +45,10 @@ public class DesaparecidosController {
     }
     
     @CrossOrigin
-    @RequestMapping(
-    	    path = "/desaparecidos", 
-    	    method = RequestMethod.POST, 
+    @PostMapping(
+    	    path = "/desaparecido", 
     	    consumes="multipart/form-data")
-    	public ResponseEntity<String> handleupload(MultipartFile file) throws IOException{
+    	public ResponseEntity<String> handleupload(@RequestPart("file") MultipartFile file) throws IOException{
     		if(!file.isEmpty()) {
     			try {
     				serviceFoto.upload(file);

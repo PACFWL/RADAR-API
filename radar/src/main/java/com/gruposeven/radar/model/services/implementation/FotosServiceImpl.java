@@ -23,10 +23,10 @@ public class FotosServiceImpl implements FotosService {
 
     @Override
     public Foto upload(MultipartFile file) throws IOException {
-    	 //String nome = file.getOriginalFilename(); 
+    	String nome = file.getOriginalFilename(); 
         //return fotosRepository.save(new Foto.FotoBuilder(file.getOriginalFilename(), file.getName(), file.getContentType(), file.getBytes()).build());
     	byte[] conteudo = file.getBytes();
-    	 Path caminhoArquivo = Paths.get("imagens/" + file.getOriginalFilename());
+    	 Path caminhoArquivo = Paths.get("imagens/" + nome);
     	 Foto imagem = new Foto();
     	 imagem.setAltText(file.getOriginalFilename());
     	 imagem.setCaminho(caminhoArquivo.toString());
