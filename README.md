@@ -23,42 +23,42 @@ necessárias para entrar nas conformidades do projeto
 | 2  | Desaparecido   | 5  | Consultar Desaparecido  | Funcionário  | Consultar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa especionar registros de desaparecidos  | Alta  | Concluído  |
 | 3  | Desaparecido   | 5  | Atualizar Desaparecido  | Funcionário  | Atualizar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Consiga modificar registros de desaparecidos  | Alta  | Concluído  |
 | 4  | Desaparecido   | 5  | Deletar Desaparecido  | Funcionário  | Excluir um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa excluir registros de desaparecidos  | Alta  | Concluído  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
+| 5  | Desaparecido   | 5  | Quantificar Desaparecidos  | Funcionário  | Total de desaparecidos (refere-se ao conjunto dados relacionados à este) cadastrados no sistema(neste caso uma aplicação web)  | Possa obter a totalidade (Quantificação) de desaparecidos  | Média  | Concluído |
+| 6  | Funcionário   | 3  | Inserir Funcionário  | Administrador  | Registrar um funcionário(refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa ter registros de funcionários  | Alta  | Concluído  |
+| 7  | Funcionário   | 3  | Consultar Funcionário  |  |  |  |  |  |
+| 8  | Funcionário   | 3  | Atualizar Funcionário  |  |  |  |  |  |
+| 9  | Funcionário   | 3  | Deletar Funcionário  |  |  |  |  |  |
+| 10 | Funcionário   | 3  | Quantificar Funcionário  |  |  |  |  |  |
+| 11  | Desaparecido   |  |  |  |  |  |  |  |
+| 12  | Desaparecido   |  |  |  |  |  |  |  |
+| 13  | Desaparecido   |  |  |  |  |  |  |  |
+| 14  | Desaparecido   |  |  |  |  |  |  |  |
+| 15  | Desaparecido   |  |  |  |  |  |  |  |
+| 16  | Desaparecido   |  |  |  |  |  |  |  |
+| 17  | Desaparecido   |  |  |  |  |  |  |  |
+| 18  | Desaparecido   |  |  |  |  |  |  |  |
+| 19  | Desaparecido   |  |  |  |  |  |  |  |
+| 20  | Desaparecido   |  |  |  |  |  |  |  |
+| 21  | Desaparecido   |  |  |  |  |  |  |  |
+| 22  | Desaparecido   |  |  |  |  |  |  |  |
+| 23  | Desaparecido   |  |  |  |  |  |  |  |
+| 24  | Desaparecido   |  |  |  |  |  |  |  |
+| 25  | Desaparecido   |  |  |  |  |  |  |  |
+| 26  | Desaparecido   |  |  |  |  |  |  |  |
+| 27  | Desaparecido   |  |  |  |  |  |  |  |
+| 28  | Desaparecido   |  |  |  |  |  |  |  |
+| 29  | Desaparecido   |  |  |  |  |  |  |  |
+| 30  | Desaparecido   |  |  |  |  |  |  |  |
+| 31  | Desaparecido   |  |  |  |  |  |  |  |
+| 32  | Desaparecido   |  |  |  |  |  |  |  |
+| 33  | Desaparecido   |  |  |  |  |  |  |  |
+| 34  | Desaparecido   |  |  |  |  |  |  |  |
+| 35  | Desaparecido   |  |  |  |  |  |  |  |
+| 36  | Desaparecido   |  |  |  |  |  |  |  |
+| 37  | Desaparecido   |  |  |  |  |  |  |  |
+| 38  | Desaparecido   |  |  |  |  |  |  |  |
+| 39  | Desaparecido   |  |  |  |  |  |  |  |
+| 40  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
