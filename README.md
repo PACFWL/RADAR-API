@@ -20,9 +20,10 @@ necessárias para entrar nas conformidades do projeto
 | ID | Módulo | Sprint | Nome | Como um (a) | Eu quero ser capaz de | Para que eu | Prioridade | Status |
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | 1  | Desaparecido   | 5   | Inserir Desaparecido   | Funcionário   | Registrar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)   | Possa ter registros de desaparecidos   | Alta   | Concluído   |
-| 2  | Desaparecido   | Item 12  | Item 13  | Item 14  | Item 15  | Item 16  | Item 17  | Item 18  |
-| 3  | Desaparecido   | Item 21  | Item 22  | Item 23  | Item 24  | Item 25  | Item 26  | Item 27  |
-| 4  | Desaparecido   | ...      | ...      | ...      | ...      | ...      | ...      | ...      |
+| 2  | Desaparecido   | 5  | Consultar 
+Desaparecido  | Funcionário  | Consultar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa especionar registros de desaparecidos  | Alta  | Concluído  |
+| 3  | Desaparecido   | 5  | Item 22  | Item 23  | Item 24  | Item 25  | Item 26  | Item 27  |
+| 4  | Desaparecido   | 5  | ...      | ...      | ...      | ...      | ...      | ...      |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
