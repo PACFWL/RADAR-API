@@ -25,10 +25,10 @@ necessárias para entrar nas conformidades do projeto
 | 4  | Desaparecido   | 5  | Deletar Desaparecido  | Funcionário  | Excluir um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa excluir registros de desaparecidos  | Alta  | Concluído  |
 | 5  | Desaparecido   | 5  | Quantificar Desaparecidos  | Funcionário  | Total de desaparecidos (refere-se ao conjunto dados relacionados à este) cadastrados no sistema(neste caso uma aplicação web)  | Possa obter a totalidade (Quantificação) de desaparecidos  | Média  | Concluído |
 | 6  | Funcionário   | 3  | Inserir Funcionário  | Administrador  | Registrar um funcionário(refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa ter registros de funcionários  | Alta  | Concluído  |
-| 7  | Funcionário   | 3  | Consultar Funcionário  |  |  |  |  |  |
-| 8  | Funcionário   | 3  | Atualizar Funcionário  |  |  |  |  |  |
-| 9  | Funcionário   | 3  | Deletar Funcionário  |  |  |  |  |  |
-| 10 | Funcionário   | 3  | Quantificar Funcionário  |  |  |  |  |  |
+| 7  | Funcionário   | 3  | Consultar Funcionário  | Administrador  | Consultar um funcionário(refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa especionar registros de funcionários | Alta  | Concluído  |
+| 8  | Funcionário   | 3  | Atualizar Funcionário  | Administrador  |  |  |  |  |
+| 9  | Funcionário   | 3  | Deletar Funcionário  | Administrador  |  |  |  |  |
+| 10 | Funcionário   | 3  | Quantificar Funcionário  | Administrador  |  |  |  |  |
 | 11  | Desaparecido   |  |  |  |  |  |  |  |
 | 12  | Desaparecido   |  |  |  |  |  |  |  |
 | 13  | Desaparecido   |  |  |  |  |  |  |  |
