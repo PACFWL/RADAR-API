@@ -26,14 +26,14 @@ necessárias para entrar nas conformidades do projeto
 | 5  | Desaparecido   | 5  | Quantificar Desaparecidos  | Funcionário  | Total de desaparecidos (refere-se ao conjunto dados relacionados à este) cadastrados no sistema(neste caso uma aplicação web)  | Possa obter a totalidade (Quantificação) de desaparecidos  | Média  | Concluído |
 | 6  | Funcionário   | 3  | Inserir Funcionário  | Administrador  | Registrar um funcionário(refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa ter registros de funcionários  | Alta  | Concluído  |
 | 7  | Funcionário   | 3  | Consultar Funcionário  | Administrador  | Consultar um funcionário(refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa especionar registros de funcionários | Alta  | Concluído  |
-| 8  | Funcionário   | 3  | Atualizar Funcionário  | Administrador  |  |  |  |  |
-| 9  | Funcionário   | 3  | Deletar Funcionário  | Administrador  |  |  |  |  |
-| 10 | Funcionário   | 3  | Quantificar Funcionário  | Administrador  |  |  |  |  |
-| 11  | Desaparecido   |  |  |  |  |  |  |  |
-| 12  | Desaparecido   |  |  |  |  |  |  |  |
-| 13  | Desaparecido   |  |  |  |  |  |  |  |
-| 14  | Desaparecido   |  |  |  |  |  |  |  |
-| 15  | Desaparecido   |  |  |  |  |  |  |  |
+| 8  | Funcionário   | 3  | Atualizar Funcionário  | Administrador  | Atualizar um funcionário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Consiga modificar registros de funcionários  | Alta  | Concluído  |
+| 9  | Funcionário   | 3  | Deletar Funcionário  | Administrador  | Excluir um funcionário (refere-se ao conjunto dados de relacionados à este) no sistema (neste caso uma aplicação web)  | Possa excluir registros de funcionários  | Alta  | Concluído  |
+| 10 | Funcionário   | 3  | Quantificar Funcionário  | Administrador  | Quantificar os funcionários (refere-se ao conjunto de dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa obter a totalidade (Quantificação) de funcionários  | Média  | Concluído  |
+| 11  | Voluntário  | 2  | Consultar Voluntário  | Funcionario  | Consultar um voluntário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Visualizar um registro de um voluntario  | Alta  | Concluído  |
+| 12  | Voluntário  | 2  | Cadastrar Voluntário  | Voluntário  | Cadastrar um voluntário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa estar registrado no sistema  | Alta  | Concluído  |
+| 13  | Voluntário  | 2  | Atualizar Voluntário  | Funcionario  | Atualizar um voluntário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Consiga modificar registros de voluntários  | Alta  | Concluído  |
+| 14  | Voluntário  | 2  | Excluir Voluntário  | Funcionario  | Excluir um voluntário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa excluir registros de funcionários  | Alta  | Concluído  |
+| 15  | Voluntário  | 2 | Quantificar Voluntário  | Funcionario  | Total de voluntários (refere-se ao conjunto dados relacionados à este) cadastrado no sistema (neste caso uma aplicação web)  | Possa obter a totalidade (Quantificação) de voluntários  | Média  | Concluído  |
 | 16  | Desaparecido   |  |  |  |  |  |  |  |
 | 17  | Desaparecido   |  |  |  |  |  |  |  |
 | 18  | Desaparecido   |  |  |  |  |  |  |  |
