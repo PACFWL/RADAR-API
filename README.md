@@ -21,8 +21,9 @@ necessárias para entrar nas conformidades do projeto
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | 1  | Desaparecido   | 5   | Inserir Desaparecido   | Funcionário   | Registrar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)   | Possa ter registros de desaparecidos   | Alta   | Concluído   |
 | 2  | Desaparecido   | 5  | Consultar Desaparecido  | Funcionário  | Consultar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa especionar registros de desaparecidos  | Alta  | Concluído  |
-| 3  | Desaparecido   | 5  | Item 22  | Item 23  | Item 24  | Item 25  | Item 26  | Item 27  |
-| 4  | Desaparecido   | 5  | ...      | ...      | ...      | ...      | ...      | ...      |
+| 3  | Desaparecido   | 5  | Atualizar Desaparecido  | Funcionário  | Atualizar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Consiga modificar registros de desaparecidos  | Alta  | Concluído  |
+| 4  | Desaparecido   | 5  | Deletar Desaparecido  | Funcionário  | Excluir um desaparecido (refere-se ao conjunto dados relacionados à este) no 
+sistema (neste caso uma aplicação web)  | Possa excluir registros de desaparecidos  | Alta  | Concluído  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
 | 5  | Desaparecido   |  |  |  |  |  |  |  |
