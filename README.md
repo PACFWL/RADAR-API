@@ -80,7 +80,7 @@ necessárias para entrar nas conformidades do projeto
 ##### Análise Estática (Sonarlint)
 Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, com 5 deles classificados como avisos e os 4 restantes como problemas graves.
 > Constructor has 9 parameters, which is greater than 7 authorized.
-> Remove this unused import '------------------------------------------------------------------.
+> Remove this unused import ------------------------------------------------------------------.
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade
@@ -123,7 +123,7 @@ classDiagram
 ```mermaid 
 sequenceDiagram 
 Usuario ->> APIDesaparecidoController: GET /api/v1/desaparecidos 
-APIDesaparecidoController ->> DesaparecidoServiceImpl: consultaTodos ( ) 
+APIDesaparecidoController ->> DesaparecidoServiceImpl: ListAll ( ) 
 DesaparecidoServiceImpl ->> DesaparecidoRepository: findAll ( ) 
 DesaparecidoRepository -->> DesaparecidoServiceImpl: List[] 
 DesaparecidoServiceImpl-->> APIDesaparecidoController: List[] 
