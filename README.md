@@ -71,18 +71,20 @@ Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um
 >  - (Justificativa) Os comentários eram referentes à implementações descartadas, descontinuadas ou idéias futuras de funcionalidades
 > 4) Add at least one assertion to this test case.
 >  - (Descrição Prévia) Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
->  - (Justificativa) A resolução deste estava apenas na eliminação da classe
+>  - (Justificativa) A resolução deste estava apenas na eliminação da classe.
+Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nova cadeia de erros que no momento em situação de tratamento e resolução.
+
 ##### Definição de pronto
 > O sprint era considerado concluido quando (exigência designada):
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
 > 3) Não tenha qualquer erro no codigo fonte considerado grave (Bloker), advertente ou que não tenha uma justificava adequada, após à análise do SonarLint.
 ##### Bibliotecas utilizadas
->Font Awesome: Usado para inserir alguns ícones.
->Angular Material: Uma biblioteca de componentes de interface de usuário prontos para uso, seguindo as diretrizes de Material Design.
->Chart.js: Biblioteca de gráficos JavaScript para renderização de diferentes tipos de gráficos.
->SweetAlert2: Biblioteca para exibição de caixas de diálogo e notificações atraentes no navegador.
->Stripe-js:  Biblioteca JavaScript do Stripe para integração de pagamentos e criação de elementos de checkout.
+> 1) Font Awesome: Usado para inserir alguns ícones.
+> 2) Angular Material: Uma biblioteca de componentes de interface de usuário prontos para uso, seguindo as diretrizes de Material Design.
+> 3) Chart.js: Biblioteca de gráficos JavaScript para renderização de diferentes tipos de gráficos.
+> 3) SweetAlert2: Biblioteca para exibição de caixas de diálogo e notificações atraentes no navegador.
+> 4) Stripe-js:  Biblioteca JavaScript do Stripe para integração de pagamentos e criação de elementos de checkout.
 >
 O modelo de dominio foi definido considerando as seguintes classes:
 ![Capturar](https://user-images.githubusercontent.com/91156801/226623996-6cf747cf-eeb7-4678-ae08-4971e8a7c534.PNG)
