@@ -19,7 +19,7 @@ necessárias para entrar nas conformidades do projeto
 ##### Product Backlog
 | ID | Módulo | Sprint | Nome | Como um (a) | Eu quero ser capaz de | Para que eu | Prioridade | Status |
 |----------|----------|----------|----------|----------|----------|----------|----------|----------|
-| 1  | Desaparecido   | 5   | Inserir Desaparecido   | Funcionário   | Registrar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)   | Possa ter registros de desaparecidos   | Alta   | Concluído   |
+| 1  | Desaparecido   | 5   | Inserir Desaparecido   | Funcionário   | Registrar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)   | Possa ter registros de desaparecidos   | Alta   | Concluído**   |
 | 2  | Desaparecido   | 5  | Consultar Desaparecido  | Funcionário  | Consultar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa especionar registros de desaparecidos  | Alta  | Concluído  |
 | 3  | Desaparecido   | 5  | Atualizar Desaparecido  | Funcionário  | Atualizar um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Consiga modificar registros de desaparecidos  | Alta  | Concluído  |
 | 4  | Desaparecido   | 5  | Deletar Desaparecido  | Funcionário  | Excluir um desaparecido (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa excluir registros de desaparecidos  | Alta  | Concluído  |
@@ -49,15 +49,18 @@ necessárias para entrar nas conformidades do projeto
 | 28  | Acessibilidade   | 1  | Alteração de Fonte  | Usuario  | Adequar o tamanho do texto à minha preferência (refere-se à todas as representações gráficas de letras; números; símbolos)  | Possa customizar o tamanho da fonte  | Baixa | Concluído  |
 | 29  | Acessibilidade   | 1  | Contraste da Cor  | Usuario  | Adequar à temática (ou combinação) de cores da página e o texto (refere-se à todas as representações gráficas de letras; números; símbolos)  | Possa alterar a "dinâmica visuativa" (O tema) da página  | Baixa  | Concluído  |
 | 30  | Acessibilidade   | 1  | Atalho Textual  | Usuario  | "Navegar" na página com acertividade no conteúdo da página (refere-se ao direcionamento de conteúdo)  | Possa me direcionar rápidamente no texto  | Baixa  | Concluído  |
-| 31  | Amostragem de Dados  | 5  | Relatório de Registros  | Funcionario  | Obter a quantidade total de desaparecidos  | Possa ter noção quantitativa de desaparecidos  | Baixa  | Não Concluído  |
-| 32  | Amostragem de Dados  | 5  | Gráfico  | Funcionario  | Organizar os dados (neste caso de desaparecidos) de uma perspectiva de representação gráfica  | Possa realizar análises dos dados de desaparecidos  | Alta  | Não Concluído  |
-| 33  | Desaparecido  | 5  | Mensagem  | Funcionario  | Visualizar um aviso de notificação da conclusão de um cadastro de desaparecido  | Possa visualizar a notificação da conclusão do cadastro  | Média  | Não Concluído  |
+| 31  | Amostragem de Dados  | 5  | Relatório de Registros  | Funcionario  | Obter a quantidade total de desaparecidos  | Possa ter noção quantitativa de desaparecidos  | Baixa  | Não Concluído*  |
+| 32  | Amostragem de Dados  | 5  | Gráfico  | Funcionario  | Organizar os dados (neste caso de desaparecidos) de uma perspectiva de representação gráfica  | Possa realizar análises dos dados de desaparecidos  | Alta  | Não Concluído*  |
+| 33  | Desaparecido  | 5  | Mensagem  | Funcionario  | Visualizar um aviso de notificação da conclusão de um cadastro de desaparecido  | Possa visualizar a notificação da conclusão do cadastro  | Média  | Não Concluído*  |
 | 34  | Funcionário  | 5  | DashBoard  | Funcionario  | Visualizar o painel de dados  | Possa visualizar de forma organizada  | Alta  | Concluído  |
 | 35  | Desaparecido  | -  | Reportar  | Voluntario  | Reportar a respeito de algum desaparecido  | Possa ajudar à outros voluntarios atualizando-los à respeito de detalhes de algum desaparecido cadastrado no sistema  | Alta  | Não Concluído  |
 | 36  | Funcionário  | -  | Blog  | Funcionario  | Manter um blog e suas respectivas postagens  | Escreva historias de sucessos   | Média  | Futuro  |
 | 37  | Usuario  | -  | Mobile  | Usuario  | Usar o sistema RADAR através de uma dispositivo mobile  | Possa andar por qualquer lugar usando o sistema e ser notificado em tempo real  | Baixa  | Futuro  |
 | 38  | Voluntario  | -  |  Mensagem | Voluntario  | Enviar mensagens para outros voluntarios também cadastrados no sistema  | Interaja com outros voluntarios; conhecer novas pessoas  | Média  | Futuro  |
 | 39  | Desaparecido  | -  | Perfil  | Voluntario  | Visualizar o perfil de outros voluntarios; saber detalhes sobre eles  | Possa saber quais voluntarios estão proximos à mim  |  Alta | Futuro  |
+
+>  (*) Não está concluído em questão à interface (Frontend).
+>  (**) Em testes para resolver o conflito com o forms usado na interface (Frontend).
 ##### Análise Estática (Sonarlint)
 Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, após verificação e tratamento destas restaram 4 erros (resultados antes da adesão de fotos).
 > 1) Constructor has ">7" parameters, which is greater than 7 authorized.
@@ -72,8 +75,9 @@ Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um
 > 4) Add at least one assertion to this test case.
 >  - (Descrição Prévia) Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
 >  - (Justificativa) A resolução deste estava apenas na eliminação da classe.
-Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nova cadeia de erros que no momento em situação de tratamento e resolução.
 
+Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nova cadeia de erros que no momento em situação de tratamento e resolução. (Adicionado mais 4 tipos distintos de erro)
+> 1) No momento em análise para resolução.
 ##### Definição de pronto
 > O sprint era considerado concluido quando (exigência designada):
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
