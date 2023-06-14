@@ -59,15 +59,15 @@ necessárias para entrar nas conformidades do projeto
 | 38  | Voluntario  | -  |  Mensagem | Voluntario  | Enviar mensagens para outros voluntarios também cadastrados no sistema  | Interaja com outros voluntarios; conhecer novas pessoas  | Média  | Futuro  |
 | 39  | Desaparecido  | -  | Perfil  | Voluntario  | Visualizar o perfil de outros voluntarios; saber detalhes sobre eles  | Possa saber quais voluntarios estão proximos à mim  |  Alta | Futuro  |
 ##### Análise Estática (Sonarlint)
-Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, após verificação e tratamento destas restaram 4 erros(antes da adesão de fotos):
-> Constructor has ">7" parameters, which is greater than 7 authorized.
->Este erro identificado sucedeu-se por superar o número padrão (7) "parameters" presentes em um método construtor.
-> Remove this unused import ...
->Este erro identificado ocorreu em razão da declaração de importações que não foram utilizadas dentro da classe.
->This block of commented-out lines of code should be removed.
->Este erro identificado foi causado pela dimensão do comentário 
->Add at least one assertion to this test case.
->Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste
+Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, após verificação e tratamento destas restaram 4 erros (antes da adesão de fotos).
+> 1) Constructor has ">7" parameters, which is greater than 7 authorized.
+> Este erro identificado sucedeu-se por superar o número padrão (7) "parameters" presentes em um método construtor.
+> 2) Remove this unused import (Nome de biblioteca).
+> Este erro identificado ocorreu em razão da declaração de importações que não foram utilizadas dentro da classe.
+> 3) This block of commented-out lines of code should be removed.
+> Este erro identificado foi causado pela dimensão do comentário.
+> 4) Add at least one assertion to this test case.
+> Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
 ##### Definição de pronto
 > O sprint será considerado concluido quando:
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
