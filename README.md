@@ -51,7 +51,7 @@ necessárias para entrar nas conformidades do projeto
 | 30  | Acessibilidade   | 1  | Atalho Textual  | Usuario  | "Navegar" na página com acertividade no conteúdo da página (refere-se ao direcionamento de conteúdo)  | Possa me direcionar rápidamente no texto  | Baixa  | Concluído  |
 | 31  | Amostragem de Dados  | 5  | Relatório de Registros  | Funcionario  | Obter a quantidade total de desaparecidos  | Possa ter noção quantitativa de desaparecidos  | Baixa  | Não Concluído  |
 | 32  | Amostragem de Dados  | 5  | Gráfico  | Funcionario  | Organizar os dados (neste caso de desaparecidos) de uma perspectiva de representação gráfica  | Possa realizar análises dos dados de desaparecidos  | Alta  | Não Concluído  |
-| 33  | Desaparecido  | 5  | Mensagem  | Funcionario  | Visualizar um aviso de notificação da conclusão de um cadastro de desaparecido  | Possa visualizar a notificação da conclusão do cadastro  | Média  | Concluído  |
+| 33  | Desaparecido  | 5  | Mensagem  | Funcionario  | Visualizar um aviso de notificação da conclusão de um cadastro de desaparecido  | Possa visualizar a notificação da conclusão do cadastro  | Média  | Não Concluído  |
 | 34  | Funcionário  | 5  | DashBoard  | Funcionario  | Visualizar o painel de dados  | Possa visualizar de forma organizada  | Alta  | Concluído  |
 | 35  | Desaparecido  | -  | Reportar  | Voluntario  | Reportar a respeito de algum desaparecido  | Possa ajudar à outros voluntarios atualizando-los à respeito de detalhes de algum desaparecido cadastrado no sistema  | Alta  | Não Concluído  |
 | 36  | Funcionário  | -  | Blog  | Funcionario  | Manter um blog e suas respectivas postagens  | Escreva historias de sucessos   | Média  | Futuro  |
