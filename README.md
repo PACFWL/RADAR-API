@@ -59,20 +59,20 @@ necessárias para entrar nas conformidades do projeto
 | 38  | Voluntario  | -  |  Mensagem | Voluntario  | Enviar mensagens para outros voluntarios também cadastrados no sistema  | Interaja com outros voluntarios; conhecer novas pessoas  | Média  | Futuro  |
 | 39  | Desaparecido  | -  | Perfil  | Voluntario  | Visualizar o perfil de outros voluntarios; saber detalhes sobre eles  | Possa saber quais voluntarios estão proximos à mim  |  Alta | Futuro  |
 ##### Análise Estática (Sonarlint)
-Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, após verificação e tratamento destas restaram 4 erros (antes da adesão de fotos).
+Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, após verificação e tratamento destas restaram 4 erros (resultados antes da adesão de fotos).
 > 1) Constructor has ">7" parameters, which is greater than 7 authorized.
-> Este erro identificado sucedeu-se por superar o número padrão (7) "parameters" presentes em um método construtor.
+>  - (Descrição Prévia) Este erro identificado sucedeu-se por superar o número padrão (7) "parameters" presentes em um método construtor.
 > 2) Remove this unused import (Nome de biblioteca).
-> Este erro identificado ocorreu em razão da declaração de importações que não foram utilizadas dentro da classe.
+>  - Este erro identificado ocorreu em razão da declaração de importações que não foram utilizadas dentro da classe.
 > 3) This block of commented-out lines of code should be removed.
-> Este erro identificado foi causado pela dimensão do comentário.
+>  - Este erro identificado foi causado pela dimensão do comentário.
 > 4) Add at least one assertion to this test case.
-> Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
+>  - Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
 ##### Definição de pronto
 > O sprint era considerado concluido quando (exigência designada):
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
-> 3) Não tenha qualquer erro no codigo fonte considerado grave, e advertência ou que não tenha uma justificava adequada, após à análise do SonarLint.
+> 3) Não tenha qualquer erro no codigo fonte considerado grave (Bloker), advertente ou que não tenha uma justificava adequada, após à análise do SonarLint.
 ##### Bibliotecas utilizadas
 >Font Awesome: Usado para inserir alguns ícones.
 >Angular Material: Uma biblioteca de componentes de interface de usuário prontos para uso, seguindo as diretrizes de Material Design.
