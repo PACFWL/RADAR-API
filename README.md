@@ -8,7 +8,7 @@ Grupo 7
 - [Silas Leite](https://github.com/LeiteSS)
 ##### Processo de Desenvolvimento de Software - PDS
 > O Projeto Interdisciplinar segue uma abordagem interativa incremental adaptada do Scrum (exigência designada). Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. Ao longo das Sprints, o modelo desenvolveu semelhanças com a abordagem Waterfall, pois demonstrou falha no cumprimento do requisito essencial de concluir cada recurso dentro do prazo designado para cada Sprint.
-##### Estudo de Caso – Sistema Integrado de Gestão
+##### Estudo de Caso – Sistema Web - RADAR
 > O sistema RADAR proverá a divulgação de pessoas desaparecidas e cadastrar voluntários.
 Esses voluntários irão receber mensagens a respeito de desaparecimentos próximos da região
 de onde ele mora e na página onde será divulgado os desaparecidos haverá além dos detalhes
@@ -42,7 +42,7 @@ necessárias para entrar nas conformidades do projeto
 | 21  | Doador  | 4  | Inserir Doador  | Voluntario / Usuario  | Registrar um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Possa ter registros de doadores  | Média | Concluído  |
 | 22  | Doador  | 4  | Consultar Doador  | Funcionario  | Consultar um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Possa especionar registros de doadores  | Média | Concluído  |
 | 23  | Doador  | 4  | Atualizar Doador  | Funcionario  | Atualizar um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Consiga modificar registros de doadores  | Média  | Concluído  |
-| 24  | Doador  | 4  | Deletar Doador  |  | Funcionario  | Excluir um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Possa excluir registros de doadores  | Média  | Concluído  |
+| 24  | Doador  | 4  | Deletar Doador  | Funcionario  | Excluir um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Possa excluir registros de doadores  | Média  | Concluído  |
 | 25  | Doador  | 5  | Quantificar Doador  | Funcionario  | Quantificar os doadores (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e suas doações  | Possa obter a totalidade (Quantificação) de doadores  | Média  | Concluído  |
 | 26  | Código Fonte  | 5  | Análise  | Administrador  | Ter uma análise estática de código (neste caso averiguação de qualidade e segurança)  | Possa ter uma gratificação de qualidade e segurança do código  | Média  | Concluído  |
 | 27  | Código Fonte  | 5  | Modificação de funcionalidades   | Administrador  | Alterar o código de acordo com as mudanças tecnológicas e do mercado  | Possa reestruturar o código  | Média  | Concluído  |
