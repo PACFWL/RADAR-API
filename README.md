@@ -39,16 +39,17 @@ necessárias para entrar nas conformidades do projeto
 | 18  | Familiar  | 4  | Atualizar Familiar  | Funcionario  | Atualizar um familiar (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que está relacionado a um desaparecido  | Consiga modificar registros de familiares  | Alta  | Concluído  |
 | 19  | Familiar  | 4  | Excluir Familiar  | Funcionario  | Excluir um familiar (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que está relacionado a um desaparecido  | Possa excluir registros de familiares  | Alta  | Concluído   |
 | 20  | Familiar  | 5  | Quantificar Familiares  | Funcionario  | Quantificar os familiares (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que estão vinculados a um desaparecido  | Possa obter a totalidade (Quantificação) de familiares  | Média  | Concluído  |
-| 21  | Doador  | 4  | Inserir Doador  |  |  |  |  |  |
-| 22  | Doador  | 4  | Consultar Doador  |  |  |  |  |  |
-| 23  | Doador  | 4  | Atualizar Doador  |  |  |  |  |  |
-| 24  | Doador  | 4  | Deletar Doador  |  |  |  |  |  |
-| 25  | Doador  | 5  | Quantificar Doador  |  |  |  |  |  |
-| 26  | Desaparecido   |  |  |  |  |  |  |  |
-| 27  | Desaparecido   |  |  |  |  |  |  |  |
-| 28  | Desaparecido   |  |  |  |  |  |  |  |
-| 29  | Desaparecido   |  |  |  |  |  |  |  |
-| 30  | Desaparecido   |  |  |  |  |  |  |  |
+| 21  | Doador  | 4  | Inserir Doador  | Voluntario / Usuario  | Registrar um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Possa ter registros de doadores  | Média | Concluído  |
+| 22  | Doador  | 4  | Consultar Doador  | Funcionario  | Consultar um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) 
+e sua doação  | Possa especionar registros de doadores  | Média | Concluído  |
+| 23  | Doador  | 4  | Atualizar Doador  | Funcionario  | Atualizar um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Consiga modificar registros de doadores  | Média  | Concluído  |
+| 24  | Doador  | 4  | Deletar Doador  |  | Funcionario  | Excluir um doador (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e sua doação  | Possa excluir registros de doadores  | Média  | Concluído  |
+| 25  | Doador  | 5  | Quantificar Doador  | Funcionario  | Quantificar os doadores (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e suas doações  | Possa obter a totalidade (Quantificação) de doadores  | Média  | Concluído  |
+| 26  | Código Fonte  | 5  | Análise  | Administrador  | Ter uma análise estática de código (neste caso averiguação de qualidade e segurança)  | Possa ter uma gratificação de qualidade e segurança do código  | Média  | Concluído  |
+| 27  | Código Fonte  | 5  | Modificação de funcionalidades   | Administrador  | Alterar o código de acordo com as mudanças tecnológicas e do mercado  | Possa reestruturar o código  | Média  | Concluído  |
+| 28  | Acessibilidade   |  |  |  |  |  |  |  |
+| 29  | Acessibilidade   |  |  |  |  |  |  |  |
+| 30  | Acessibilidade   |  |  |  |  |  |  |  |
 | 31  | Desaparecido   |  |  |  |  |  |  |  |
 | 32  | Desaparecido   |  |  |  |  |  |  |  |
 | 33  | Desaparecido   |  |  |  |  |  |  |  |
