@@ -7,7 +7,7 @@ Grupo 7
 - [Pablo Angel Choque Flores](https://github.com/PACFWL)
 - [Silas Leite](https://github.com/LeiteSS)
 ##### Processo de Desenvolvimento de Software - PDS
-> O Projeto Interdisciplinar segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. Ao longo das Sprints, o modelo desenvolveu semelhanças com a abordagem Waterfall, pois demonstrou falha no cumprimento do requisito essencial de concluir cada recurso dentro do prazo designado para cada Sprint.
+> O Projeto Interdisciplinar segue uma abordagem interativa incremental adaptada do Scrum (exigência designada). Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. Ao longo das Sprints, o modelo desenvolveu semelhanças com a abordagem Waterfall, pois demonstrou falha no cumprimento do requisito essencial de concluir cada recurso dentro do prazo designado para cada Sprint.
 ##### Estudo de Caso – Sistema Integrado de Gestão
 > O sistema RADAR proverá a divulgação de pessoas desaparecidas e cadastrar voluntários.
 Esses voluntários irão receber mensagens a respeito de desaparecimentos próximos da região
