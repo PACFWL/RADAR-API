@@ -47,37 +47,21 @@ e sua doação  | Possa especionar registros de doadores  | Média | Concluído 
 | 25  | Doador  | 5  | Quantificar Doador  | Funcionario  | Quantificar os doadores (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) e suas doações  | Possa obter a totalidade (Quantificação) de doadores  | Média  | Concluído  |
 | 26  | Código Fonte  | 5  | Análise  | Administrador  | Ter uma análise estática de código (neste caso averiguação de qualidade e segurança)  | Possa ter uma gratificação de qualidade e segurança do código  | Média  | Concluído  |
 | 27  | Código Fonte  | 5  | Modificação de funcionalidades   | Administrador  | Alterar o código de acordo com as mudanças tecnológicas e do mercado  | Possa reestruturar o código  | Média  | Concluído  |
-| 28  | Acessibilidade   |  |  |  |  |  |  |  |
-| 29  | Acessibilidade   |  |  |  |  |  |  |  |
-| 30  | Acessibilidade   |  |  |  |  |  |  |  |
-| 31  | Desaparecido   |  |  |  |  |  |  |  |
-| 32  | Desaparecido   |  |  |  |  |  |  |  |
-| 33  | Desaparecido   |  |  |  |  |  |  |  |
-| 34  | Desaparecido   |  |  |  |  |  |  |  |
-| 35  | Desaparecido   |  |  |  |  |  |  |  |
-| 36  | Desaparecido   |  |  |  |  |  |  |  |
-| 37  | Desaparecido   |  |  |  |  |  |  |  |
-| 38  | Desaparecido   |  |  |  |  |  |  |  |
-| 39  | Desaparecido   |  |  |  |  |  |  |  |
-| 40  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
-| 5  | Desaparecido   |  |  |  |  |  |  |  |
+| 28  | Acessibilidade   | 1  | Alteração de Fonte  | Usuario  | Adequar o tamanho do texto à minha preferência (refere-se à todas as representações gráficas de letras; números; símbolos)  | Possa customizar o tamanho da fonte  | Baixa | Concluído  |
+| 29  | Acessibilidade   | 1  | Contraste da Cor  | Usuario  | Adequar à temática (ou combinação) de cores da página e o texto (refere-se à todas as representações gráficas de letras; números; símbolos)  | Possa alterar a "dinâmica visuativa" (O tema) da página  | Baixa  | Concluído  |
+| 30  | Acessibilidade   | 1  | Atalho Textual  | Usuario  | "Navegar" na página com acertividade no conteúdo da página (refere-se ao direcionamento de conteúdo)  | Possa me 
+direcionar rápidamente no texto  | Baixa  | Concluído  |
+| 31  | Amostragem de Dados  | 5  | Relatório de Registros  | Funcionario  | Obter a quantidade total de desaparecidos  | Possa ter noção quantitativa de desaparecidos  | Baixa  | Concluído  |
+| 32  | Amostragem de Dados  | 5  | Gráfico  | Funcionario  | Organizar os dados (neste caso de desaparecidos) de uma perspectiva de representação gráfica  | Possa realizar análises dos dados de desaparecidos  | Alta  | Concluído  |
+| 33  | Desaparecido  | 5  | Mensagem  | Funcionario  | Visualizar um aviso de notificação da conclusão de um cadastro de desaparecido  | Possa visualizar a notificação da conclusão do cadastro  | Média  | Concluído  |
+| 34  | Funcionário  | 5  | DashBoard  | Funcionario  | Visualizar o painel de dados  | Possa visualizar 
+de forma organizada  | Alta  | Concluído  |
+| 35  | Desaparecido  | -  | Reportar  | Voluntario  | Reportar a respeito de algum desaparecido  | Possa ajudar à outros voluntarios atualizando-los à respeito de detalhes de algum desaparecido cadastrado no sistema  | Alta  | Não Concluído  |
+| 36  | Funcionário  | -  | Blog  | Funcionario  | Manter um blog e suas respectivas postagens  | Escreva historias de sucessos   | Média  | Futuro  |
+| 37  | Usuario  | -  | Mobile  | Usuario  | Usar o sistema RADAR através de uma dispositivo mobile  | Possa andar por qualquer lugar usando o sistema e ser notificado em tempo real  | Baixa  | Futuro  |
+| 38  | Voluntario  | -  |  Mensagem | Voluntario  | Enviar mensagens para outros voluntarios também cadastrados no sistema  | Interaja com outros voluntarios; conhecer novas pessoas  | Média  | Futuro  |
+| 39  | Desaparecido  | -  | Perfil  | Voluntario  | Visualizar o perfil de outros voluntarios; saber detalhes sobre eles  | Possa saber quais voluntarios estão proximos à mim  |  Alta | Futuro  |
+
 ##### Análise Estática (Sonarlint)
 Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um total de 53 erros. Esses erros foram categorizados em 9 tipos distintos, com 5 deles classificados como avisos e os 4 restantes como problemas graves.
 > Constructor has 9 parameters, which is greater than 7 authorized.
