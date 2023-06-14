@@ -69,7 +69,7 @@ Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um
 > 4) Add at least one assertion to this test case.
 > Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
 ##### Definição de pronto
-> O sprint será considerado concluido quando:
+> O sprint era considerado concluido quando (exigência designada):
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
 > 3) Não tenha qualquer erro no codigo fonte considerado grave, e advertência ou que não tenha uma justificava adequada, após à análise do SonarLint.
