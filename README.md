@@ -82,7 +82,7 @@ Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nov
 > O sprint era considerado concluido quando (exigência designada):
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
 > 2) Depois de executado os casos de teste com 100% de satisfatorios o código deve ser armazenado no github (commit).
-> 3) Não tenha qualquer erro no codigo fonte considerado grave (Bloker), advertente ou que não tenha uma justificava adequada, após à análise do SonarLint.
+> 3) Não tenha qualquer erro no codigo fonte considerado perigoso (bloker), grave (major) ou que não tenha uma justificava adequada, após à análise do SonarLint.
 ##### Bibliotecas utilizadas
 > 1) Font Awesome: Usado para inserir alguns ícones.
 > 2) Angular Material: Uma biblioteca de componentes de interface de usuário prontos para uso, seguindo as diretrizes de Material Design.
@@ -105,14 +105,14 @@ classDiagram
  DesaparecidosServiceImpl : +void delete (Long id)
  DesaparecidosServiceImpl : +long allDesaparecidos()
 ``` 
->O diagrama de sequência descreve como os varios componentes arquiteturais colaboram para manipular uma operação de sistema (exemplo para operação consultaTodos())
+>O diagrama de sequência descreve como os varios componentes arquiteturais colaboram para manipular uma operação de sistema (exemplo para operação ListAll())
 ```mermaid 
 sequenceDiagram 
 Usuario ->> APIDesaparecidoController: GET /api/v1/desaparecidos 
 APIDesaparecidoController ->> DesaparecidoServiceImpl: ListAll ( ) 
 DesaparecidoServiceImpl ->> DesaparecidoRepository: findAll ( ) 
-DesaparecidoRepository -->> DesaparecidoServiceImpl: List[] 
-DesaparecidoServiceImpl-->> APIDesaparecidoController: List[] 
+DesaparecidoRepository -->> DesaparecidoServiceImpl: return desaparecidosRepository.findAll()
+DesaparecidoServiceImpl-->> APIDesaparecidoController: return desaparecidosRepository.findAll() 
 APIDesaparecidoController -->> Usuario: JSon[] 
 ``` 
 >Referencias
