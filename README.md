@@ -6,7 +6,7 @@ Grupo 7
 - [Leornado Leal de Albuquerque](https://github.com/Leohgb)
 - [Pablo Angel Choque Flores](https://github.com/PACFWL)
 - [Silas Leite](https://github.com/LeiteSS)
-##### Processo de Desenvolvimento de Software - PDS
+##### Processo de Desenvolvimento de Sistema Web - PDSW
 > O Projeto Interdisciplinar segue uma abordagem interativa incremental adaptada do Scrum (exigência designada). Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade. Ao longo das Sprints, o modelo desenvolveu semelhanças com a abordagem Waterfall, pois demonstrou falha no cumprimento do requisito essencial de concluir cada recurso dentro do prazo designado para cada Sprint.
 ##### Estudo de Caso – Sistema Web - RADAR
 > O sistema RADAR proverá a divulgação de pessoas desaparecidas e cadastrar voluntários.
