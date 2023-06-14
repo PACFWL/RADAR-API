@@ -65,13 +65,13 @@ Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um
 >  - (Justificativa) Existe a necessidade de haver um número acima de 7 para algumas classes (Ex:.Desaparecido)
 > 2) Remove this unused import (Nome de biblioteca).
 >  - (Descrição Prévia) Este erro identificado ocorreu em razão da declaração de importações que não foram utilizadas dentro da classe.
->  - (Justificativa) Os imports encontrados estavam caracterizados como resíduos de implementação descartadas
+>  - (Justificativa) Os "imports" encontrados estavam caracterizados como resíduos de implementações descartadas ou descontinuadas
 > 3) This block of commented-out lines of code should be removed.
 >  - (Descrição Prévia) Este erro identificado foi causado pela dimensão do comentário.
->  - (Justificativa)
+>  - (Justificativa) Os comentários eram referentes à implementações descartadas, descontinuadas ou idéias futuras de funcionalidades
 > 4) Add at least one assertion to this test case.
 >  - (Descrição Prévia) Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
->  - (Justificativa) 
+>  - (Justificativa) A resolução deste estava apenas na eliminação da classe
 ##### Definição de pronto
 > O sprint era considerado concluido quando (exigência designada):
 > 1) Os casos de teste de aceitação forem executados e obtiverem 100% de satisfatorios. Os casos de teste (CT) são rastreáveis para os requisiitos (REQ). O elo de rastreabilidade é estabelecido pelo identificador do caso de teste.
