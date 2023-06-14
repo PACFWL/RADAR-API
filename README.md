@@ -65,7 +65,7 @@ Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um
 >  - (Justificativa) Existe a necessidade de haver um número acima de 7 para algumas classes (Ex:.Desaparecido)
 > 2) Remove this unused import (Nome de biblioteca).
 >  - (Descrição Prévia) Este erro identificado ocorreu em razão da declaração de importações que não foram utilizadas dentro da classe.
->  - (Justificativa) Os "imports" encontrados estavam caracterizados como resíduos de implementações descartadas ou descontinuadas
+>  - (Justificativa) Os "imports" encontrados estavam caracterizados como "resíduos" de implementações descartadas ou descontinuadas ou de futuras funcionalidades idealizadas
 > 3) This block of commented-out lines of code should be removed.
 >  - (Descrição Prévia) Este erro identificado foi causado pela dimensão do comentário.
 >  - (Justificativa) Os comentários eram referentes à implementações descartadas, descontinuadas ou idéias futuras de funcionalidades
