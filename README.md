@@ -112,7 +112,7 @@ Usuario ->> APIDesaparecidoController: GET /api/v1/desaparecidos
 APIDesaparecidoController ->> DesaparecidoServiceImpl: ListAll ( ) 
 DesaparecidoServiceImpl ->> DesaparecidoRepository: findAll ( ) 
 DesaparecidoRepository -->> DesaparecidoServiceImpl: return desaparecidosRepository.findAll()
-DesaparecidoServiceImpl-->> APIDesaparecidoController: return desaparecidosRepository.findAll() 
+DesaparecidoServiceImpl-->> APIDesaparecidoController: return ResponseEntity.ok(service.listAll())
 APIDesaparecidoController -->> Usuario: JSon[] 
 ``` 
 >Referencias
