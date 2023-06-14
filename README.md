@@ -76,7 +76,7 @@ Durante a análise realizada pelo Sonarlint, foram inicialmente identificados um
 >  - (Descrição Prévia) Este erro identificado decorreu-se em função da ausência de uma afirmação no caso teste.
 >  - (Justificativa) A resolução deste estava apenas na eliminação da classe.
 
-Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nova cadeia de erros que no momento em situação de tratamento e resolução. (Adicionado mais 4 tipos distintos de erro)
+Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nova cadeia de erros que no momento está em situação de tratamento e resolução. (Adicionado mais 4 tipos distintos de erro)
 > 1) No momento em análise para resolução.
 ##### Definição de pronto
 > O sprint era considerado concluido quando (exigência designada):
