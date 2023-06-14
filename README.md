@@ -34,16 +34,16 @@ necessárias para entrar nas conformidades do projeto
 | 13  | Voluntário  | 2  | Atualizar Voluntário  | Funcionario  | Atualizar um voluntário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Consiga modificar registros de voluntários  | Alta  | Concluído  |
 | 14  | Voluntário  | 2  | Excluir Voluntário  | Funcionario  | Excluir um voluntário (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web)  | Possa excluir registros de funcionários  | Alta  | Concluído  |
 | 15  | Voluntário  | 2 | Quantificar Voluntário  | Funcionario  | Total de voluntários (refere-se ao conjunto dados relacionados à este) cadastrado no sistema (neste caso uma aplicação web)  | Possa obter a totalidade (Quantificação) de voluntários  | Média  | Concluído  |
-| 16  | Desaparecido   |  |  |  |  |  |  |  |
-| 17  | Desaparecido   |  |  |  |  |  |  |  |
-| 18  | Desaparecido   |  |  |  |  |  |  |  |
-| 19  | Desaparecido   |  |  |  |  |  |  |  |
-| 20  | Desaparecido   |  |  |  |  |  |  |  |
-| 21  | Desaparecido   |  |  |  |  |  |  |  |
-| 22  | Desaparecido   |  |  |  |  |  |  |  |
-| 23  | Desaparecido   |  |  |  |  |  |  |  |
-| 24  | Desaparecido   |  |  |  |  |  |  |  |
-| 25  | Desaparecido   |  |  |  |  |  |  |  |
+| 16  | Familiar  | 4  | Consultar Familiar  | Funcionario  | Registrar um familiar (refere-se aoconjunto dados relacionados à este) nosistema (neste caso uma aplicação web)que estão relacionados a um desaparecido  | Possa ter registros de familiares  | Alta  | Concluído  |
+| 17  | Familiar  | 4  | Cadastrar Familiar  | Funcionario  | Consultar um familiar (refere-se aoconjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que está relacionado a um desaparecido  | Possa especionar registros de familiares  | Alta  | Concluído  |
+| 18  | Familiar  | 4  | Atualizar Familiar  | Funcionario  | Atualizar um familiar (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que está relacionado a um desaparecido  | Consiga modificar registros de familiares  | Alta  | Concluído  |
+| 19  | Familiar  | 4  | Excluir Familiar  | Funcionario  | Excluir um familiar (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que está relacionado a um desaparecido  | Possa excluir registros de familiares  | Alta  | Concluído   |
+| 20  | Familiar  | 5  | Quantificar Familiares  | Funcionario  | Quantificar os familiares (refere-se ao conjunto dados relacionados à este) no sistema (neste caso uma aplicação web) que estão vinculados a um desaparecido  | Possa obter a totalidade (Quantificação) de familiares  | Média  | Concluído  |
+| 21  | Doador  | 4  | Inserir Doador  |  |  |  |  |  |
+| 22  | Doador  | 4  | Consultar Doador  |  |  |  |  |  |
+| 23  | Doador  | 4  | Atualizar Doador  |  |  |  |  |  |
+| 24  | Doador  | 4  | Deletar Doador  |  |  |  |  |  |
+| 25  | Doador  | 5  | Quantificar Doador  |  |  |  |  |  |
 | 26  | Desaparecido   |  |  |  |  |  |  |  |
 | 27  | Desaparecido   |  |  |  |  |  |  |  |
 | 28  | Desaparecido   |  |  |  |  |  |  |  |
