@@ -104,12 +104,12 @@ Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nov
 
 > Atualmente, o nosso projeto engloba 7 operações CRUD, nomeadamente Desaparecidos, Doadores, Endereços, Familiares, Fotos, Funcionários e Voluntários. Além disso, o projeto consiste em 43 classes distintas, todas contribuindo para a funcionalidade e estrutura do site.
 ##### Tecnologías Utilizadas:
-> 1) Frontend (Framework : Linguagens de programação, Linguagens marcação e Linguagens de Estilo) : 
+> 1) Frontend (Framework : Linguagens de programação, Linguagens marcação e Linguagens de estilização) : 
 - Angular : HTML, CSS, Javascript e Typescript
 > 2) Backend (Framework : Linguagens de programação):
 - Spring Boot : Java 
 > 3) IDEs:
-- STS(Spring Tool Suite 4) e Visual Studio
+- STS (Spring Tool Suite 4) e Visual Studio
 > 4) Banco de Dados:
 - H2
 ##### Bibliotecas utilizadas
