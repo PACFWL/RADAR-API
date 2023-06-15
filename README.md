@@ -118,7 +118,7 @@ Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nov
 > 3) SweetAlert2: Biblioteca para exibição de caixas de diálogo e notificações atraentes no navegador.
 > 4) Stripe-js:  Biblioteca JavaScript do Stripe para integração de pagamentos e criação de elementos de checkout.
 >
-O modelo de dominio foi definido considerando as seguintes classes:
+#### O modelo de dominio foi definido considerando as seguintes classes:
 ![Capturar](https://user-images.githubusercontent.com/91156801/226623996-6cf747cf-eeb7-4678-ae08-4971e8a7c534.PNG)
 >A entidade Desaparecido foi identificada como um serviço (ERL, 2007 - serviço do tipo entidade) o contrado das operações de sistema (LARMAN, 2006, pag.140) foram definidas no diagrama abaixo.
 ```mermaid 
@@ -133,7 +133,7 @@ classDiagram
  DesaparecidosServiceImpl : +void delete (Long id)
  DesaparecidosServiceImpl : +long allDesaparecidos()
 ``` 
->O diagrama de sequência descreve como os varios componentes arquiteturais colaboram para manipular uma operação de sistema (exemplo para operação ListAll())
+#### O diagrama de sequência descreve como os varios componentes arquiteturais colaboram para manipular uma operação de sistema (exemplo para operação ListAll())
 ```mermaid 
 sequenceDiagram 
 Usuario ->> APIDesaparecidoController: GET /api/v1/desaparecidos 
