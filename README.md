@@ -99,7 +99,9 @@ Após adesão de Fotos (Funcionalidade para armazenar imagens) iniciou-se um nov
 > 1) No momento em análise para resolução.
 
 ##### Resultados:
-> 
+> Desenvolvemos um site de busca chamado RADAR, que tem como foco auxiliar na busca de pessoas desaparecidas. A plataforma servirá como meio de divulgação de informações relevantes sobre desaparecidos e facilita o cadastramento de voluntários dispostos a contribuir com as buscas. Após o cadastramento, os voluntários receberão notificações sobre desaparecimentos em suas respectivas regiões. Além disso, cada pessoa desaparecida recebe uma página dedicada que fornece detalhes abrangentes sobre o indivíduo, juntamente com instruções para os voluntários relatarem qualquer nova informação que possam ter.
+
+> Atualmente, o nosso projeto engloba 7 operações CRUD, nomeadamente Desaparecidos, Doadores, Endereços, Familiares, Fotos, Funcionários e Voluntários. Além disso, o projeto consiste em 43 classes distintas, todas contribuindo para a funcionalidade e estrutura do site.
 ##### Tecnologías Utilizadas:
 > 1) Frontend (Framework : Linguagens de programação, Linguagens marcação e Linguagens de Estilo) : 
 - Angular : HTML, CSS, Javascript e Typescript
