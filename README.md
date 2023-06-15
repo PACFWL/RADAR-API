@@ -1,4 +1,4 @@
-# Api - Radar - Spring Boot (STS)
+# API - RADAR - Spring Boot (Spring Tools Suite)
 ### Fatec ZL - Centro Paula Souza
 ##### Disciplina - Programação Web III
 Grupo 7
